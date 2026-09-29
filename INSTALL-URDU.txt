@@ -1,0 +1,24 @@
+Ayzal Birthday Website — Download (Roman Urdu guide)
+=====================================================
+
+Yeh poori website ka source code hai (Ismail ke liye birthday site).
+
+Kaise chalayen (apne computer par):
+1. Yeh ZIP file kahin extract karein (unzip karein).
+2. Computer par Node.js hona chahiye (nodejs.org se free download hota hai).
+3. Extract kiye hue folder mein terminal/command prompt kholein aur yeh chalayen:
+
+     bun install        (ya: npm install)
+
+4. Phir website start karein:
+
+     bun run dev        (ya: npm run dev)
+
+5. Browser mein http://localhost:8080 kholein — site wahin chalegi.
+
+Important notes:
+- Background video CDN par hosted hai, is ZIP ke andar nahi hai.
+  Offline chalane ke liye video file alag download karke src/assets mein
+  rakhni hogi aur code mein uska path use karna hoga.
+- Website publish karne ke liye is folder ko Lovable, Vercel, ya kisi bhi
+  hosting par deploy kiya ja sakta hai.
